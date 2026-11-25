@@ -23,7 +23,7 @@ for (const [name, size] of Object.entries(SIZES)) {
     for (const r of (live ? LIVE_ROUTES : ['', ...ROUTES])) {
       test(`route #${r || 'home'}`, async ({ page }) => {
         const errors = trackErrors(page);
-        await page.goto('/#' + r);
+        await page.goto('./#' + r);
         await page.waitForLoadState('load');
         await page.waitForTimeout(400);
         await expect(page.locator('h1:visible').first()).toBeVisible();
