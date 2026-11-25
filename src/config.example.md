@@ -5,7 +5,7 @@ Find every spot to fill by searching `src/index.html` for `to be completed` (it 
 
 | Value | Where it goes in `src/index.html` |
 |---|---|
-| `SITE_URL` (final site URL, no trailing slash) | Replace the text `SITE_URL` in: canonical, `og:url`, `og:image`, `twitter:image`, JSON-LD (`url`, `logo`); also in `src/sitemap.xml`, `src/robots.txt`, `src/404.html`. Already done for the free Pages URL; redo when a custom domain is connected. |
+| `SITE_URL` (final site URL, no trailing slash) | Replace the text `SITE_URL` in: canonical, `og:url`, `og:image`, `twitter:image`, JSON-LD (`url`, `logo`); also in `src/sitemap.xml`, `src/robots.txt`, `src/404.html`. Currently set to the free Pages URL (https://jwu-fes.github.io/lcs-site); redo when a custom domain is connected. |
 | `GA_ID` (GA4 measurement ID, `G-XXXXXXXXXX`) | `var GA_ID='';` in the first `<script>` block (near the Analytics snippet). Empty means analytics is off. |
 | Official club e-mail | Contact page, item `['E-mail','Official club e-mail'+TODO,'']`; also `LEGAL_C` (legal notice) and the FAQ text "the official club e-mail is coming soon". |
 | WhatsApp number | Contact page, item `['WhatsApp','Club number'+TODO,'']`. |
