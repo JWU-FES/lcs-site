@@ -1,0 +1,25 @@
+{
+  "name": "lcs-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "preview": "serve src -l 4173",
+    "validate": "html-validate src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "html-validate": "^11.22.1",
+    "lighthouse": "^13.6.0",
+    "playwright": "^1.65.1",
+    "serve": "^14.2.8"
+  }
+}
