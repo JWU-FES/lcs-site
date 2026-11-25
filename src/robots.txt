@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jwu-fes.github.io/lcs-site/sitemap.xml
+Sitemap: https://lcs-site-phi.vercel.app/sitemap.xml
